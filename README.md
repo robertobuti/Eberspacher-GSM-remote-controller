@@ -23,7 +23,7 @@ For the outputs i have used a relay shield V3.0, it's a board with 4 realys outp
 On Eberspacher is easy, from original controller you have 4 colore wire, red, yellow, grey/red, brown/white, use a relay contact to close RED (+12V) with YELLOW (swithc signal), very easy. For your convenience see at this link more information. https://www.letonkinoisvarnish.co.uk/eberspacher_intro_1.html
 
 The full device assembled (without realy shield) is in following picture.
- ![Eberspacher-GSM-remote-controller](/controller.png )
+ ![Eberspacher-GSM-remote-controller](/controller.jpg )
 
 I you use same HW you need only to adjust a code line, at line 231 sound like:
     if(textMessage.indexOf("+CMT: \"+ZZXXXXXXXXXXXX\"")>=0){  // change here your number with prefix
