@@ -14,4 +14,4 @@ Some considerations about GSM :
 power supply require high current when radio is switched on, GSM voltage range is from 3.4 to 4.2, so an external switching regulator is raccomanded, trim it abotu at 3.6V, it's fine like Lithium battery voltage.
 Again on GSM, Arduino in compatibile with 3.3V signal input, but signal are 5V TTL, so TX from serial port can be connected directly to RX of GSM, voltage need to be reduced at comaptible level, nothing of difficult, just use two resistor (10K e 22K) is all you need. Search on google for more information, here a good link. :https://lastminuteengineers.com/sim800l-gsm-module-arduino-tutorial/ 
 
-![connections picture]("https://imgur.com/kTRJTRX")
+ ![Eberspacher-GSM-remote-controller](/gsm_resistors.png )
