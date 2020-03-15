@@ -2,7 +2,7 @@
 Remote controller for Eberspacher heater
 This project born from need to swtich on the Eberspacher heaters on my boat some hours before use it, in order to find warn environment, nothing else.
 Obviosuly exist similar device from manufacturer, but the price is relevant, so see here a easy solution.
-I have done the first version from a webserver and usign 4G wifi connection, but too much problem with phone operators, noone offer pubblic IP so a VPN is required, too complex. I switch to simple 2G GSM connection using SMS, with IOT sim car is very cheap solution.
+I have done the first version from a webserver and usign 4G wifi connection, but too much problem with phone operators, noone offer pubblic IP so a VPN is required, too complex. I switch to simple 2G GSM connection using SMS, with IOT sim card is very cheap solution. (rember to disable the PIN, use your phone to do it)
 HW requirement :
 - Arduino CPU, i have used ATmega 2560
 - GSM module, i have used SIM800L
