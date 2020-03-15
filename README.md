@@ -27,13 +27,20 @@ The full device assembled (without realy shield) is in following picture.
 
 I you use same HW you need only to adjust a code line, at line 231 sound like:
     if(textMessage.indexOf("+CMT: \"+ZZXXXXXXXXXXXX\"")>=0){  // change here your number with prefix
-change +ZZ with your local international prefix and XXXXXXX with your mobile number used to send message to the controller, only your phone will be recognized as authorized sender.
+    
+Change +ZZ with your local international prefix, XXXXXXXXXX with your mobile number, used to send message to the controller, only your phone will be recognized as authorized sender.
 
-Message will be in followign format :
-Letter E to identify the Eberspacher command, followe by number 1 or 2 for the heater, a space, and the status ON or OFF. Example text to send:
+Message must be in followign format :
+
+Letter E to identify the Eberspacher command, followed by number 1 or 2 for the heater, a space, and the status ON or OFF. 
+
+Example of text to send:
+
 E1 ON E2 ON , other variants at your choise, you can send also just E1 ON for example. Is not case sensitive, use also lower case if you prefere.
 In response you will have a sms with Eberspacher status and GPS informations.
+
 Note: if you send a SMS with any different message you will have back only GPS informations.
+
 SMS received from unauthorized sender are trashed.
 
 Enjoy
